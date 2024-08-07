@@ -2,4 +2,4 @@ function Home (){ // Use an initial capital letter for function names - Conventi
     return <h1>Initial Page</h1>
 }
 
-export default Home; //Indicate to next.js the default page. Next updates automatically
+export default Home; //Indicate to next.js the default page. Next updates automaticallygit push
