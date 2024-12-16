@@ -1,6 +1,6 @@
 function Home() {
-  // Use an initial capital letter for function names - Convention for React components
-  return <h1>Oi mô! Booktalk tá online :) Bom almoço e amo você💚!</h1>;
+  window.location.href = "index.html"; // Redireciona para index.html
+  console.log("O JavaScript foi carregado corretamente!");
 }
 
-export default Home; //Indicate to next.js the default page. Next updates automatically git push
+Home();
